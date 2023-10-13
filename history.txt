@@ -1,0 +1,499 @@
+    1  git help config
+    2  ls
+    3  ls /data
+    4  git help ls
+    5  git help config
+    6  git help ls
+    7  git help rm
+    8  git help rm -r
+    9  git help rm
+   10  git help ls/
+   11  git help ls /
+   12  git -h/
+   13  git -h
+   14  git init
+   15  git init git-basic-exercise
+   16  cd git-basic-exercises
+   17  git init git-basic-exercises
+   18  cd git-basic-exercises
+   19  git ls -a
+   20  git --help
+   21  la -a
+   22  git ls -a
+   23  ls -a
+   24  git init
+   25  ls -a
+   26  git init git-basic-exercises
+   27  ls -a
+   28  git status
+   29  touch README.md
+   30  ls -a
+   31  git status
+   32  git log
+   33  git add 
+   34  git add .
+   35  git status
+   36  git-basic-exercises
+   37  git init git-basic-exercises
+   38  cd git-basic-exercises
+   39  ls -a
+   40  git init
+   41  ls -a
+   42  git init git-basic-exercises
+   43  ls -a
+   44  git init git-basic-exercises
+   45  cd git-basic-exercises
+   46  ls -a
+   47  git init git-basic-exercises
+   48  ls -a
+   49  git status
+   50  touch README.md
+   51  ls -a
+   52  git status
+   53  git log
+   54  git add README.md
+   55  git status
+   56  git init
+   57  mkdir git-basic-exercises
+   58  mkdir git-basic-exercises
+   59  cd Umuzi Bootcamp
+   60  cd Umuzi
+   61  cd git-basic-exercises
+   62  ls -a
+   63  cd Desktop
+   64  mkdir git-basic-exercises
+   65  mkdir git-basic-exercises
+   66  cd git-basic-exercises
+   67  ls -a
+   68  git init
+   69  ls -a
+   70  git status
+   71  touch README.md
+   72  ls -a
+   73  git status
+   74  git log
+   75  git add README.md
+   76  git status
+   77  git reset HEAD README.md
+   78  git reset
+   79  git staus
+   80  git status
+   81  git add README.md
+   82  git status
+   83  git commit -m "initial commit"
+   84  git config --global selloshadrack@gmail.com
+   85  git config --global user.email "selloshadrack@gmail.com"
+   86  git config --global user.name "Radebe Sello"
+   87  git commit -m "initial commit"
+   88  git log
+   89  q
+   90  nano README.md
+   91  cat README.md
+   92  git status
+   93  git add README.md
+   94  git status
+   95  git commit -m "second commit"
+   96  nano README.md
+   97  cat README.md
+   98  dig status
+   99  git status
+  100  git add README.md
+  101  git status
+  102  git commit -m "third commit"
+  103  git log
+  104  git checkout 690180d55663b8b7877142eae29325404281ea6f
+  105  cat README.md
+  106  git checkout main
+  107  git checkout master
+  108  cat README.md
+  109  git branch milkshake-flavours
+  110  git branch
+  111  git checkout milkshake-flavours
+  112  git branch
+  113  nano milkshakes.md
+  114  git status
+  115  git add milkshakes.md
+  116  git status
+  117  git commit -m "added initial flavours"
+  118  git log
+  119  git checkout master
+  120  git log
+  121  git branch history
+  122  git branch
+  123  git checkout history
+  124  git branch
+  125  git log
+  126  history > history.txt
+  127  git status
+  128  git add history.txt
+  129  nano history.txt
+  130  git commit -m "added history"
+  131  git log
+  132  git checkout milkshakes-flavours
+  133  git checkout milkshake-flavours
+  134  git log
+  135  nano README.md
+  136  git status
+  137  git add README.md
+  138  git status
+  139  git commit -m "random readme changes"
+  140  cat README.md
+  141  git checkout history
+  142  cat README.md
+  143  rm README.md
+  144  echo "booya" > README.md
+  145  git status
+  146  git add README.md
+  147  git status
+  148  git commit -m "rewrote readme"
+  149  git log
+  150  git checkout master
+  151  ls
+  152  git log
+  153  git checkout milkshake-flavours
+  154  ls
+  155  git log
+  156  git checkout history
+  157  ls
+  158  git log
+  159  cat README.md
+  160  checkout master
+  161  git checkout master
+  162  git merge milkshake-flavours
+  163  ls
+  164  git log
+  165  git merge history
+  166  ls
+  167  git log
+  168  ls -l
+  169  git init
+  170  echo "This is a new README file" > README.md
+  171  cat README.md
+  172  git add README.md
+  173  git commit -m "README file added"
+  174  git status
+  175  git checkout -b "branch_to_create_merge_conflict"
+  176  git branch
+  177  git status
+  178  nano README.md
+  179  git status
+  180  vim README.md
+  181  git status
+  182  git add README.md
+  183  git status
+  184  git commit -m "Edits made to README on the branch"
+  185  git checkout master
+  186  nano README.md
+  187  git add README.md
+  188  git status
+  189  git commit -m "Edit made to README on the master branch"
+  190  git branch
+  191  git merge branch_to_create_merge_conflict
+  192  nano README.md
+  193  vim README.md
+  194  git status
+  195  git add README.md
+  196  git status
+  197  git commit
+  198  git status
+  199  git log
+  200  ls
+  201  git log
+  202  git checkout history
+  203  git log
+  204  git checkout milkshake-flavours
+  205  git log
+  206  git checkout history
+  207  git merge master
+  208  git log
+  209  git checkout master
+  210  git log
+  211  git remote add origin https://github.com/Sello17/git-basic-exercises.git
+  212  git branch -M main
+  213  git push -u origin main
+  214  git push --all
+  215  cd ../
+  216  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  217  cd a-repo-to-clone
+  218  git branch
+  219  git log
+  220  git checkout -b a-branch-with-a-few-commits
+  221  git remote -v
+  222  git log
+  223  git checkout git-basic-exercises
+  224  cd git-basic-exercises
+  225  git log
+  226  cd ../git-basic-exercises
+  227  git log
+  228  cd
+  229  mkdir this-will-be-another-repo
+  230  cd this-will-be-another-repo
+  231  git init
+  232  touch README.md
+  233  git status
+  234  git add README.md
+  235  git status
+  236  git commit -m "Commit to another repo"
+  237  git status
+  238  cd ../git-basic-exercises
+  239  git log
+  240  git status
+  241  touch ignore-me.db
+  242  git status
+  243  cd ../this-will-be-another-repo
+  244  git status
+  245  git log
+  246  cd ../git-basic-exercises
+  247  git status
+  248  git add git-basic-exercises/
+  249  git status
+  250  nano .gitignore
+  251  git status
+  252  mkdir large-directory-that-should-be-local-only
+  253  cd large-directory-that-should-be-local-only
+  254  touch readme.md
+  255  nano readme.md
+  256  cd ...
+  257  cd ..
+  258  git status
+  259  nano gitignore
+  260  git status
+  261  git add .gitignore
+  262  git commit -m "added .gitignore"
+  263  git push --all
+  264  git log
+  265  git status
+  266  git push https://github.com/Umuzi-org/a-repo-to-clone
+  267  git push
+  268  git push --set-upstream https://github.com/Umuzi-org/a-repo-to-clone master
+  269  [200~git push --set-upstream https://github.com/Umuzi-org/a-repo-to-clone master
+  270  git push --set-upstream https://github.com/Sello17/a-repo-to-clone master
+  271  git push origin master
+  272  git status
+  273  git remote -v
+  274  git remote add origin https://github.com/Sello17/repo.git
+  275  git push origin master
+  276  git status
+  277  git log
+  278  git add .
+  279  nano gitignore
+  280  git remote -v
+  281  git push origin master
+  282  cd ../a-repo-to-clone
+  283  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  284  cd a-repo-to-clone
+  285  git branch
+  286  git log
+  287  git branch -a
+  288  git checkout a-branch-with-a-few-commits
+  289  git remote -v
+  290  git log
+  291  cd ../git-basic-exercises
+  292  git status
+  293  git log
+  294  cd
+  295  mkdir this-will-be-another-repo
+  296  cd this-will-be-another-repo
+  297  git status
+  298  git log
+  299  cd ../git-basic-exercises
+  300  git status
+  301  git log
+  302  git push origin master
+  303  git remote -v
+  304  git push --all
+  305  git status
+  306  git add gitignore
+  307  git status
+  308  git add a-repo-to-clone
+  309  git status
+  310  git add .
+  311  git add git-basic-exercises
+  312  git add large-directory-that-should-be-local-only
+  313  git status
+  314  git status
+  315  git add git-basic-exercises
+  316  git checkout git-basic-exercises
+  317  git checkout master
+  318  git branch
+  319  git status
+  320  git add git-basic-exercises
+  321  git add git-exercises
+  322  git status
+  323  git add git-basic-exercises
+  324  git status
+  325  git commit
+  326  git push 
+  327  git push origin master
+  328  git branch
+  329  git push origin master
+  330  git remote -v
+  331  git clone https://github.com/Sello17/git-basic-exercises.git
+  332  git commit --all
+  333  cd User
+  334  cd user
+  335  cd git-basic-exercises
+  336  git status
+  337  git log
+  338  git commit -m "All my work"
+  339  git status
+  340  git log
+  341  git remote -v
+  342  git push origin master
+  343  git clone https://github.com/Umuzi-org/Sello-Radebe-219-level-1-programming-katas-python.git
+  344  cd Sello-Radebe-219-level-1-programming-katas-python
+  345  git branch
+  346  git checkout main
+  347  git pull
+  348  git checkout -b task/1
+  349  git branch
+  350  cd Sello-Radebe-219-level-1-programming-katas-python
+  351  cd desktop
+  352  cd "Umuzi Bootcamp"
+  353  cd Sello-Radebe-219-level-1-programming-katas-python
+  354  git branch
+  355  git status
+  356  nano task2.py
+  357  git add task2.py
+  358  git status
+  359  git commit -m "This is my first submission for Task 2."
+  360  git log
+  361  git checkout main
+  362  git log
+  363  git checkout task/2
+  364  git status
+  365  git log
+  366  git push
+  367  git push --set-upstream origin task/2
+  368  git checkout main
+  369  git pull
+  370  git checkout -b task/3
+  371  nano task3.py
+  372  git status
+  373  git commit -m "This is the first commit for Task 3"
+  374  git add task3.py
+  375  git status
+  376  git commit -m "This is the first commit for Task 3."
+  377  git push --set-upstream origin task/3
+  378  git checkout main
+  379  git pull
+  380  git checkout -b task/4
+  381  git status
+  382  nano task4.py
+  383  git status
+  384  git add task4.py
+  385  git commit -m "This is the first commit for Task 4."
+  386  git status
+  387  git log
+  388  git push --set-upstream origin task/4
+  389  git checkout main
+  390  git pull
+  391  git checkout -b task/5
+  392  git status
+  393  nano task5.py
+  394  git status
+  395  git add task5.py
+  396  git status
+  397  git commit -m "This is the first commit for Task 5."
+  398  git status
+  399  git log
+  400  git push --set-upstream origin task/5
+  401  git checkout main
+  402  git branch
+  403  git checkout main
+  404  git pull
+  405  git checkout -b task/6
+  406  git status
+  407  nano task6.py
+  408  git status
+  409  git add task6.py
+  410  git status
+  411  git commit -m "This is the first commit for Task 6."
+  412  git push --set-upstream origin task/6
+  413  git checkout main
+  414  git pull
+  415  git checkout -b task/7
+  416  nano task7.py
+  417  git status
+  418  git add task7.py
+  419  git status
+  420  git commit -m "This is the first commit for Task 7."
+  421  git push --set-upstream origin task/7
+  422  git checkout main
+  423  git branch
+  424  cd git-basic-exercises
+  425  git status
+  426  git branch
+  427  git log
+  428  cd
+  429  cd C:\Users\User
+  430  cd ../Users/User
+  431  cd "C:\Users\User"
+  432  cd git-basic-exercises
+  433  git branch
+  434  git log
+  435  git pull
+  436  cd
+  437  cd desktop
+  438  cd "Umuzi Bootcamp"
+  439  cd git-basic-exercises-main
+  440  git branch
+  441  git log
+  442  cd
+  443  cd "Umuzi Bootcamp"
+  444  cd desktop
+  445  cd "Umuzi Bootcamp"
+  446  git clone https://github.com/Sello17/git-basic-exercises.git
+  447  cd
+  448  cd desktop
+  449  cd "Umuzi Bootcamp"
+  450  mkdir git-basic-exercises
+  451  cd git-basic-exercises
+  452  ls -a
+  453  git init
+  454  ls -a
+  455  git status
+  456  touch README.md
+  457  ls -a
+  458  git status
+  459  git log
+  460  git add README.md
+  461  git status
+  462  git reset
+  463  git status
+  464  git add README.md
+  465  git commit -m "initial commit"
+  466  git log
+  467  nano README.md
+  468  cat README.md
+  469  git status
+  470  git add README.md
+  471  git commit -m "second commit"
+  472  nano README.md
+  473  git status
+  474  git add README.md
+  475  git commit -m "third commit"
+  476  git log
+  477  git checkout 3a84d82ea9084c37c54e0897679dabc69a59650d
+  478  cat README.md
+  479  git checkout main
+  480  cat README.md
+  481  git checkout master
+  482  cat README.md
+  483  git branch
+  484  git branch milkshake-flavours
+  485  git branch
+  486  git checkout milkshake-flavours
+  487  git branch
+  488  nano milkshakes.md
+  489  git status
+  490  git add milkshakes.md
+  491  git status
+  492  git commit -m "added initial flavours"
+  493  git log
+  494  git checkout master
+  495  git log
+  496  git checkout -b history
+  497  git log
+  498  git branch
+  499  history > history.txt
