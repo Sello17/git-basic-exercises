@@ -1,1 +1,3 @@
-This is my first git command-line exercise. It is not an easy journey but I will succeed. 
+This is a new README file
+
+This is an edit on the master branch
